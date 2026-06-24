@@ -1,0 +1,27 @@
+# 商品评论洞察引擎 — 硬编码分类法 (Taxonomy)
+# 此文件是系统中分类维度的唯一真实来源 (Single Source of Truth)。
+# 枚举值为中文，直接用于 LLM Prompt 展示、JSON 输出和统计分析。
+
+sentiment:
+  - "正面"     # POSITIVE
+  - "负面"     # NEGATIVE
+  - "中性"     # NEUTRAL
+  - "混合"     # MIXED — 电商评论中"质量好但太贵"等两面评价非常普遍，不可删除
+
+primary_category:
+  - "产品质量"     # 材质、做工、耐用度等问题
+  - "物流配送"     # 发货速度、包装、运输损坏等
+  - "服务态度"     # 客服回复、退换货处理、售后等
+  - "价格争议"     # 性价比、降价、价格预期等
+  - "无效评论"     # 纯表情、刷单、无实质内容
+
+urgency_level:
+  1: "低优 — 非紧急问题（如颜色偏好、包装风格）"
+  2: "中优 — 需关注问题（如发货慢、尺码偏小）"
+  3: "高优/红线 — 需立即响应（如安全问题、食品异物、电池爆炸）"
+
+# LLM提取约束
+extraction_constraints:
+  keyword_max_count: 5
+  keyword_min_count: 3
+  summary_max_chars: 15

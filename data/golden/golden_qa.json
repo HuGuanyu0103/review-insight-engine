@@ -1,0 +1,55 @@
+[
+  {
+    "question": "用户对产品质量有哪些不满？",
+    "expected_behavior": "should_return_quality_issues",
+    "should_find_answers": true
+  },
+  {
+    "question": "鞋子掉色的问题主要集中在什么颜色？",
+    "expected_behavior": "should_return_specific_colors",
+    "should_find_answers": true
+  },
+  {
+    "question": "物流方面有什么负面反馈？",
+    "expected_behavior": "should_return_logistics_issues",
+    "should_find_answers": true
+  },
+  {
+    "question": "用户对我们的航天飞机功能有什么看法？",
+    "expected_behavior": "should_say_not_found",
+    "should_find_answers": false,
+    "expected_answer_keywords": ["未在评论中找到", "未找到", "没有相关"]
+  },
+  {
+    "question": "有没有用户提到吃了鞋子之后拉肚子？",
+    "expected_behavior": "should_say_not_found",
+    "should_find_answers": false,
+    "expected_answer_keywords": ["未在评论中找到", "未找到", "没有相关"]
+  },
+  {
+    "question": "Plus会员的反馈主要集中在哪些方面？",
+    "expected_behavior": "should_filter_by_user_tier",
+    "should_find_answers": true
+  },
+  {
+    "question": "客服服务的效率怎么样？",
+    "expected_behavior": "should_return_service_feedback",
+    "should_find_answers": true
+  },
+  {
+    "question": "性价比方面的好评多还是差评多？",
+    "expected_behavior": "should_return_price_value_comparison",
+    "should_find_answers": true
+  },
+  {
+    "question": "有没有关于淘宝店铺的评价？",
+    "expected_behavior": "should_say_not_found_or_irrelevant",
+    "should_find_answers": false,
+    "expected_answer_keywords": ["未在评论中找到", "未找到", "没有相关"]
+  },
+  {
+    "question": "最严重的问题是什么？",
+    "expected_behavior": "should_return_most_severe_issues",
+    "should_find_answers": true
+  }
+]
