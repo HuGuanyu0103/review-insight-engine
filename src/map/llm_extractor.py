@@ -64,17 +64,54 @@ class LLMExtractor:
                 extractions = []
                 hitl_items = []
 
+                # Build rating lookup for cross-validation
+                rating_lookup = {
+                    r.get("review_id"): int(r.get("rating", 0))
+                    for r in reviews if r.get("rating")
+                }
+
                 for item in parsed:
                     try:
                         extraction = ExtractedReview(**item)
+
+                        # --- HITL Gate 1: Low confidence ---
                         if extraction.confidence < self.settings.hitl_confidence_threshold:
                             hitl_items.append({
                                 "review_id": extraction.review_id,
                                 "extraction": extraction,
                                 "reason": f"Low confidence ({extraction.confidence:.2f} < {self.settings.hitl_confidence_threshold})",
                             })
-                        else:
-                            extractions.append(extraction)
+                            continue
+
+                        # --- HITL Gate 2: 星级-情感交叉验证 ---
+                        # 设计文档要求：用户给5星但LLM判负面 → 入人工复核池
+                        # 真实评论中5星+负面往往是反讽或数据录入错误
+                        rating = rating_lookup.get(extraction.review_id, 0)
+                        if rating == 5 and extraction.sentiment.value == "负面":
+                            if extraction.confidence < 0.90:
+                                hitl_items.append({
+                                    "review_id": extraction.review_id,
+                                    "extraction": extraction,
+                                    "reason": (
+                                        f"星级-情感矛盾: {rating}星→判负面"
+                                        f" (conf={extraction.confidence:.2f})"
+                                    ),
+                                })
+                                continue
+
+                        # --- HITL Gate 3: 1星→正面（同样可疑）---
+                        if rating == 1 and extraction.sentiment.value == "正面":
+                            hitl_items.append({
+                                "review_id": extraction.review_id,
+                                "extraction": extraction,
+                                "reason": (
+                                    f"星级-情感矛盾: {rating}星→判正面"
+                                    f" (conf={extraction.confidence:.2f})"
+                                ),
+                            })
+                            continue
+
+                        extractions.append(extraction)
                     except Exception as e:
                         # Find the original review content for HITL
                         original = next(
