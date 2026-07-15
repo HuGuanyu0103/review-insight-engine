@@ -1,0 +1,1602 @@
+[
+  {
+    "review_id": "G0001",
+    "review_content": "鞋子质量很好穿着很舒服透气性也不错",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "标准正面评价"
+  },
+  {
+    "review_id": "G0002",
+    "review_content": "快递很快第二天就收到了包装也很完整",
+    "expected_sentiment": "正面",
+    "expected_category": "物流配送",
+    "expected_urgency": 1,
+    "note": "物流正面"
+  },
+  {
+    "review_id": "G0003",
+    "review_content": "客服态度很好耐心解答了我的问题",
+    "expected_sentiment": "正面",
+    "expected_category": "服务态度",
+    "expected_urgency": 1,
+    "note": "客服正面"
+  },
+  {
+    "review_id": "G0004",
+    "review_content": "性价比很高这个价格买到这个品质很值",
+    "expected_sentiment": "正面",
+    "expected_category": "价格争议",
+    "expected_urgency": 1,
+    "note": "性价比正面"
+  },
+  {
+    "review_id": "G0005",
+    "review_content": "回购的第二双了给家里老人也买了一双",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "行为暗示满意（回购）"
+  },
+  {
+    "review_id": "G0006",
+    "review_content": "做工精细没有线头材质手感很好",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "细节好评"
+  },
+  {
+    "review_id": "G0007",
+    "review_content": "颜色很正跟图片一模一样很喜欢",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "色差无/满意"
+  },
+  {
+    "review_id": "G0008",
+    "review_content": "鞋子很轻跑步穿特别合适透气好",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "功能性好评"
+  },
+  {
+    "review_id": "G0009",
+    "review_content": "顺丰发货隔天就到了快递员态度很好",
+    "expected_sentiment": "正面",
+    "expected_category": "物流配送",
+    "expected_urgency": 1,
+    "note": "快递速度好评"
+  },
+  {
+    "review_id": "G0010",
+    "review_content": "售后处理很快有问题马上就解决了",
+    "expected_sentiment": "正面",
+    "expected_category": "服务态度",
+    "expected_urgency": 1,
+    "note": "售后效率好评"
+  },
+  {
+    "review_id": "G0011",
+    "review_content": "穿了一周鞋底就开胶了质量太差",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "开胶-中优"
+  },
+  {
+    "review_id": "G0012",
+    "review_content": "鞋子有刺鼻气味闻着头晕",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "有害气味-高优/红线"
+  },
+  {
+    "review_id": "G0013",
+    "review_content": "掉色严重把袜子都染红了",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "掉色-中优"
+  },
+  {
+    "review_id": "G0014",
+    "review_content": "鞋面破了才穿了两次",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "破损-中优"
+  },
+  {
+    "review_id": "G0015",
+    "review_content": "鞋底太硬了走路脚疼不舒适",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "舒适度差-中优"
+  },
+  {
+    "review_id": "G0016",
+    "review_content": "尺码严重偏小按正常码买根本穿不了",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "尺码偏差"
+  },
+  {
+    "review_id": "G0017",
+    "review_content": "穿了几天鞋垫就塌了质量堪忧",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "鞋垫塌陷"
+  },
+  {
+    "review_id": "G0018",
+    "review_content": "线头很多感觉像残次品做工太粗糙",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "做工粗糙"
+  },
+  {
+    "review_id": "G0019",
+    "review_content": "磨脚后跟每次穿都起泡设计缺陷",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "磨脚"
+  },
+  {
+    "review_id": "G0020",
+    "review_content": "说是真皮其实是人造革虚假宣传欺骗消费者",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "虚假宣传-高优"
+  },
+  {
+    "review_id": "G0021",
+    "review_content": "发货太慢了等了十天才收到",
+    "expected_sentiment": "负面",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "发货慢"
+  },
+  {
+    "review_id": "G0022",
+    "review_content": "物流暴力运输鞋盒都压扁了",
+    "expected_sentiment": "负面",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "暴力运输"
+  },
+  {
+    "review_id": "G0023",
+    "review_content": "快递把包裹弄丢了又重新补发等了一周",
+    "expected_sentiment": "负面",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "丢件"
+  },
+  {
+    "review_id": "G0024",
+    "review_content": "承诺48小时发货结果拖了5天",
+    "expected_sentiment": "负面",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "承诺未兑现"
+  },
+  {
+    "review_id": "G0025",
+    "review_content": "包装太简陋鞋子直接放快递袋里都变形了",
+    "expected_sentiment": "负面",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "包装不当"
+  },
+  {
+    "review_id": "G0026",
+    "review_content": "发的根本不是我要的颜色发错货了",
+    "expected_sentiment": "负面",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "发错货"
+  },
+  {
+    "review_id": "G0027",
+    "review_content": "客服态度特别差问什么都是自动回复",
+    "expected_sentiment": "负面",
+    "expected_category": "服务态度",
+    "expected_urgency": 2,
+    "note": "客服态度差"
+  },
+  {
+    "review_id": "G0028",
+    "review_content": "退换货流程太麻烦了客服推脱不给处理",
+    "expected_sentiment": "负面",
+    "expected_category": "服务态度",
+    "expected_urgency": 2,
+    "note": "退换货推脱"
+  },
+  {
+    "review_id": "G0029",
+    "review_content": "申请退货被拒了三次每次都说照片不清楚",
+    "expected_sentiment": "负面",
+    "expected_category": "服务态度",
+    "expected_urgency": 2,
+    "note": "退货刁难"
+  },
+  {
+    "review_id": "G0030",
+    "review_content": "客服一直不回消息态度恶劣",
+    "expected_sentiment": "负面",
+    "expected_category": "服务态度",
+    "expected_urgency": 2,
+    "note": "客服失联"
+  },
+  {
+    "review_id": "G0031",
+    "review_content": "答应了退款却一直不处理拖了两周",
+    "expected_sentiment": "负面",
+    "expected_category": "服务态度",
+    "expected_urgency": 2,
+    "note": "退款拖延"
+  },
+  {
+    "review_id": "G0032",
+    "review_content": "价格降太快了买完三天就降价50块",
+    "expected_sentiment": "负面",
+    "expected_category": "价格争议",
+    "expected_urgency": 2,
+    "note": "短期降价"
+  },
+  {
+    "review_id": "G0033",
+    "review_content": "太贵了不值这个价同样的东西别家便宜一半",
+    "expected_sentiment": "负面",
+    "expected_category": "价格争议",
+    "expected_urgency": 2,
+    "note": "性价比低"
+  },
+  {
+    "review_id": "G0034",
+    "review_content": "双十一买的比现在还便宜被坑了",
+    "expected_sentiment": "负面",
+    "expected_category": "价格争议",
+    "expected_urgency": 2,
+    "note": "大促差价"
+  },
+  {
+    "review_id": "G0035",
+    "review_content": "昨天刚买今天活动就降价了80块太坑了",
+    "expected_sentiment": "负面",
+    "expected_category": "价格争议",
+    "expected_urgency": 2,
+    "note": "活动降价"
+  },
+  {
+    "review_id": "G0036",
+    "review_content": "质量不错穿着舒服但价格有点贵性价比不高",
+    "expected_sentiment": "混合",
+    "expected_category": "价格争议",
+    "expected_urgency": 1,
+    "note": "质好价贵"
+  },
+  {
+    "review_id": "G0037",
+    "review_content": "鞋子好看但磨脚穿着不太舒服",
+    "expected_sentiment": "混合",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "好看但磨脚"
+  },
+  {
+    "review_id": "G0038",
+    "review_content": "款式很好但是尺码严重偏小建议买大两码",
+    "expected_sentiment": "混合",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "款好码小"
+  },
+  {
+    "review_id": "G0039",
+    "review_content": "颜色好看质量可以就是发货实在太慢了",
+    "expected_sentiment": "混合",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "产品好物流慢"
+  },
+  {
+    "review_id": "G0040",
+    "review_content": "整体还行物流快但客服态度需要改善",
+    "expected_sentiment": "混合",
+    "expected_category": "服务态度",
+    "expected_urgency": 2,
+    "note": "物流好客服差"
+  },
+  {
+    "review_id": "G0041",
+    "review_content": "鞋子本身质量没毛病但是刚买就参加活动降了80",
+    "expected_sentiment": "混合",
+    "expected_category": "价格争议",
+    "expected_urgency": 2,
+    "note": "产品好降价快"
+  },
+  {
+    "review_id": "G0042",
+    "review_content": "做工精细穿着舒服就是款式选择太少",
+    "expected_sentiment": "混合",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "做工好款式少"
+  },
+  {
+    "review_id": "G0043",
+    "review_content": "发货很快物流很棒但鞋子质量真的很一般穿几次就变形了",
+    "expected_sentiment": "混合",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "物流好质量差"
+  },
+  {
+    "review_id": "G0044",
+    "review_content": "还行吧一般般没什么特别的",
+    "expected_sentiment": "中性",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "一般评价"
+  },
+  {
+    "review_id": "G0045",
+    "review_content": "刚收到还没穿过看起来还行希望耐穿吧",
+    "expected_sentiment": "中性",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "未使用"
+  },
+  {
+    "review_id": "G0046",
+    "review_content": "帮同事买的他说还行我也不清楚",
+    "expected_sentiment": "中性",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "代买不知情"
+  },
+  {
+    "review_id": "G0047",
+    "review_content": "还没穿先评价一下过几天追评",
+    "expected_sentiment": "中性",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "待追评"
+  },
+  {
+    "review_id": "G0048",
+    "review_content": "凑合穿吧没有太好也没有太差",
+    "expected_sentiment": "中性",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "凑合"
+  },
+  {
+    "review_id": "G0049",
+    "review_content": "真是买了个活爹回来供着吧不能穿",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "反讽-活爹"
+  },
+  {
+    "review_id": "G0050",
+    "review_content": "五星好评穿了三天鞋底掉了客服已读不回太棒了",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "反讽-五星差评"
+  },
+  {
+    "review_id": "G0051",
+    "review_content": "太浮夸了不过本仙女就是喜欢这种全场焦点的感觉",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "明贬暗褒"
+  },
+  {
+    "review_id": "G0052",
+    "review_content": "谢谢商家让我体验了一次什么叫花钱买教训",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "反讽-感谢体"
+  },
+  {
+    "review_id": "G0053",
+    "review_content": "呵呵就当买个教训吧",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "反讽-呵呵体"
+  },
+  {
+    "review_id": "G0054",
+    "review_content": "这质量绝了穿三天比我穿三年还旧",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "反讽-绝了"
+  },
+  {
+    "review_id": "G0055",
+    "review_content": "好",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "单字评价"
+  },
+  {
+    "review_id": "G0056",
+    "review_content": "不错",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "模糊好评"
+  },
+  {
+    "review_id": "G0057",
+    "review_content": "111111",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "连击数字"
+  },
+  {
+    "review_id": "G0058",
+    "review_content": "😂😂😂👍👍👍",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "纯表情"
+  },
+  {
+    "review_id": "G0059",
+    "review_content": "默认好评",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "系统默认"
+  },
+  {
+    "review_id": "G0060",
+    "review_content": "好評好評好評",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "繁体重复"
+  },
+  {
+    "review_id": "G0061",
+    "review_content": "。。。。。。",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "纯符号"
+  },
+  {
+    "review_id": "G0062",
+    "review_content": "穿了这个鞋子跑步扭伤了脚踝设计有安全隐患",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "安全伤害-高优"
+  },
+  {
+    "review_id": "G0063",
+    "review_content": "鞋底防滑太差了雨天摔了一跤",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "防滑安全-高优"
+  },
+  {
+    "review_id": "G0064",
+    "review_content": "孩子穿了脚上起了红疹怀疑材料过敏",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "材质过敏-高优"
+  },
+  {
+    "review_id": "G0065",
+    "review_content": "物流很快鞋子也很好客服也很耐心完美的一次购物",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "多维度全正面"
+  },
+  {
+    "review_id": "G0066",
+    "review_content": "物流慢客服差鞋子还有质量问题三重打击",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "多维度全负面"
+  },
+  {
+    "review_id": "G0067",
+    "review_content": "穿了一个月了来追评质量确实不错很耐穿",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "追评正面"
+  },
+  {
+    "review_id": "G0068",
+    "review_content": "活动价买的很划算但发货等太久了",
+    "expected_sentiment": "混合",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "价格满意物流不满"
+  },
+  {
+    "review_id": "G0069",
+    "review_content": "给爸爸买的他说很舒服走路不累了",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "送礼满意"
+  },
+  {
+    "review_id": "G0070",
+    "review_content": "好，就这样",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 单字评价"
+  },
+  {
+    "review_id": "G0071",
+    "review_content": "说一下，质量不错穿着舒服但价格有点贵性价比不高",
+    "expected_sentiment": "混合",
+    "expected_category": "价格争议",
+    "expected_urgency": 1,
+    "note": "变体: 质好价贵"
+  },
+  {
+    "review_id": "G0072",
+    "review_content": "说一下，谢谢商家让我体验了一次什么叫花钱买教训",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 反讽-感谢体"
+  },
+  {
+    "review_id": "G0073",
+    "review_content": "。。。。。。，就这样",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 纯符号"
+  },
+  {
+    "review_id": "G0074",
+    "review_content": "说一下，鞋底防滑太差了雨天摔了一跤",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 防滑安全-高优"
+  },
+  {
+    "review_id": "G0075",
+    "review_content": "磨脚后跟每次穿都起泡设计缺陷，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 磨脚"
+  },
+  {
+    "review_id": "G0076",
+    "review_content": "鞋面破了才穿了两次。",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 破损-中优"
+  },
+  {
+    "review_id": "G0077",
+    "review_content": "太贵了不值这个价同样的东西别家便宜一半，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "价格争议",
+    "expected_urgency": 2,
+    "note": "变体: 性价比低"
+  },
+  {
+    "review_id": "G0078",
+    "review_content": "孩子穿了脚上起了红疹怀疑材料过敏！",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 材质过敏-高优"
+  },
+  {
+    "review_id": "G0079",
+    "review_content": "线头很多感觉像残次品做工太粗糙。",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 做工粗糙"
+  },
+  {
+    "review_id": "G0080",
+    "review_content": "掉色严重把袜子都染红了。",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 掉色-中优"
+  },
+  {
+    "review_id": "G0081",
+    "review_content": "顺丰发货隔天就到了快递员态度很好，就这样",
+    "expected_sentiment": "正面",
+    "expected_category": "物流配送",
+    "expected_urgency": 1,
+    "note": "变体: 快递速度好评"
+  },
+  {
+    "review_id": "G0082",
+    "review_content": "性价比很高这个价格买到这个品质很值！",
+    "expected_sentiment": "正面",
+    "expected_category": "价格争议",
+    "expected_urgency": 1,
+    "note": "变体: 性价比正面"
+  },
+  {
+    "review_id": "G0083",
+    "review_content": "说一下，真是买了个活爹回来供着吧不能穿",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 反讽-活爹"
+  },
+  {
+    "review_id": "G0084",
+    "review_content": "说一下，说是真皮其实是人造革虚假宣传欺骗消费者",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 虚假宣传-高优"
+  },
+  {
+    "review_id": "G0085",
+    "review_content": "掉色严重把袜子都染红了。",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 掉色-中优"
+  },
+  {
+    "review_id": "G0086",
+    "review_content": "穿了一个月了来追评质量确实不错很耐穿，就这样",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 追评正面"
+  },
+  {
+    "review_id": "G0087",
+    "review_content": "好評好評好評！",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 繁体重复"
+  },
+  {
+    "review_id": "G0088",
+    "review_content": "款式很好但是尺码严重偏小建议买大两码，就这样",
+    "expected_sentiment": "混合",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 款好码小"
+  },
+  {
+    "review_id": "G0089",
+    "review_content": "说一下，鞋底防滑太差了雨天摔了一跤",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 防滑安全-高优"
+  },
+  {
+    "review_id": "G0090",
+    "review_content": "还行吧一般般没什么特别的。",
+    "expected_sentiment": "中性",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 一般评价"
+  },
+  {
+    "review_id": "G0091",
+    "review_content": "回购的第二双了给家里老人也买了一双，就这样",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 行为暗示满意（回购）"
+  },
+  {
+    "review_id": "G0092",
+    "review_content": "尺码严重偏小按正常码买根本穿不了，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 尺码偏差"
+  },
+  {
+    "review_id": "G0093",
+    "review_content": "说一下，😂😂😂👍👍👍",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 纯表情"
+  },
+  {
+    "review_id": "G0094",
+    "review_content": "真是买了个活爹回来供着吧不能穿，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 反讽-活爹"
+  },
+  {
+    "review_id": "G0095",
+    "review_content": "默认好评。",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 系统默认"
+  },
+  {
+    "review_id": "G0096",
+    "review_content": "回购的第二双了给家里老人也买了一双！",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 行为暗示满意（回购）"
+  },
+  {
+    "review_id": "G0097",
+    "review_content": "颜色好看质量可以就是发货实在太慢了！",
+    "expected_sentiment": "混合",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "变体: 产品好物流慢"
+  },
+  {
+    "review_id": "G0098",
+    "review_content": "鞋底防滑太差了雨天摔了一跤，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 防滑安全-高优"
+  },
+  {
+    "review_id": "G0099",
+    "review_content": "说一下，线头很多感觉像残次品做工太粗糙",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 做工粗糙"
+  },
+  {
+    "review_id": "G0100",
+    "review_content": "五星好评穿了三天鞋底掉了客服已读不回太棒了，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 反讽-五星差评"
+  },
+  {
+    "review_id": "G0101",
+    "review_content": "鞋底太硬了走路脚疼不舒适，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 舒适度差-中优"
+  },
+  {
+    "review_id": "G0102",
+    "review_content": "。。。。。。，就这样",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 纯符号"
+  },
+  {
+    "review_id": "G0103",
+    "review_content": "发货太慢了等了十天才收到。",
+    "expected_sentiment": "负面",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "变体: 发货慢"
+  },
+  {
+    "review_id": "G0104",
+    "review_content": "说一下，太浮夸了不过本仙女就是喜欢这种全场焦点的感觉",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 明贬暗褒"
+  },
+  {
+    "review_id": "G0105",
+    "review_content": "孩子穿了脚上起了红疹怀疑材料过敏，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 材质过敏-高优"
+  },
+  {
+    "review_id": "G0106",
+    "review_content": "说一下，帮同事买的他说还行我也不清楚",
+    "expected_sentiment": "中性",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 代买不知情"
+  },
+  {
+    "review_id": "G0107",
+    "review_content": "做工精细穿着舒服就是款式选择太少。",
+    "expected_sentiment": "混合",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 做工好款式少"
+  },
+  {
+    "review_id": "G0108",
+    "review_content": "性价比很高这个价格买到这个品质很值。",
+    "expected_sentiment": "正面",
+    "expected_category": "价格争议",
+    "expected_urgency": 1,
+    "note": "变体: 性价比正面"
+  },
+  {
+    "review_id": "G0109",
+    "review_content": "说一下，穿了几天鞋垫就塌了质量堪忧",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 鞋垫塌陷"
+  },
+  {
+    "review_id": "G0110",
+    "review_content": "刚收到还没穿过看起来还行希望耐穿吧。",
+    "expected_sentiment": "中性",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 未使用"
+  },
+  {
+    "review_id": "G0111",
+    "review_content": "还行吧一般般没什么特别的，就这样",
+    "expected_sentiment": "中性",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 一般评价"
+  },
+  {
+    "review_id": "G0112",
+    "review_content": "掉色严重把袜子都染红了，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 掉色-中优"
+  },
+  {
+    "review_id": "G0113",
+    "review_content": "说一下，刚收到还没穿过看起来还行希望耐穿吧",
+    "expected_sentiment": "中性",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 未使用"
+  },
+  {
+    "review_id": "G0114",
+    "review_content": "说一下，呵呵就当买个教训吧",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 反讽-呵呵体"
+  },
+  {
+    "review_id": "G0115",
+    "review_content": "鞋子很轻跑步穿特别合适透气好！",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 功能性好评"
+  },
+  {
+    "review_id": "G0116",
+    "review_content": "价格降太快了买完三天就降价50块！",
+    "expected_sentiment": "负面",
+    "expected_category": "价格争议",
+    "expected_urgency": 2,
+    "note": "变体: 短期降价"
+  },
+  {
+    "review_id": "G0117",
+    "review_content": "整体还行物流快但客服态度需要改善。",
+    "expected_sentiment": "混合",
+    "expected_category": "服务态度",
+    "expected_urgency": 2,
+    "note": "变体: 物流好客服差"
+  },
+  {
+    "review_id": "G0118",
+    "review_content": "说一下，顺丰发货隔天就到了快递员态度很好",
+    "expected_sentiment": "正面",
+    "expected_category": "物流配送",
+    "expected_urgency": 1,
+    "note": "变体: 快递速度好评"
+  },
+  {
+    "review_id": "G0119",
+    "review_content": "说一下，鞋底太硬了走路脚疼不舒适",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 舒适度差-中优"
+  },
+  {
+    "review_id": "G0120",
+    "review_content": "物流暴力运输鞋盒都压扁了。",
+    "expected_sentiment": "负面",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "变体: 暴力运输"
+  },
+  {
+    "review_id": "G0121",
+    "review_content": "说一下，给爸爸买的他说很舒服走路不累了",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 送礼满意"
+  },
+  {
+    "review_id": "G0122",
+    "review_content": "回购的第二双了给家里老人也买了一双，就这样",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 行为暗示满意（回购）"
+  },
+  {
+    "review_id": "G0123",
+    "review_content": "好，就这样",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 单字评价"
+  },
+  {
+    "review_id": "G0124",
+    "review_content": "昨天刚买今天活动就降价了80块太坑了。",
+    "expected_sentiment": "负面",
+    "expected_category": "价格争议",
+    "expected_urgency": 2,
+    "note": "变体: 活动降价"
+  },
+  {
+    "review_id": "G0125",
+    "review_content": "。。。。。。。",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 纯符号"
+  },
+  {
+    "review_id": "G0126",
+    "review_content": "鞋子本身质量没毛病但是刚买就参加活动降了80，就这样",
+    "expected_sentiment": "混合",
+    "expected_category": "价格争议",
+    "expected_urgency": 2,
+    "note": "变体: 产品好降价快"
+  },
+  {
+    "review_id": "G0127",
+    "review_content": "说一下，五星好评穿了三天鞋底掉了客服已读不回太棒了",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 反讽-五星差评"
+  },
+  {
+    "review_id": "G0128",
+    "review_content": "掉色严重把袜子都染红了，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 掉色-中优"
+  },
+  {
+    "review_id": "G0129",
+    "review_content": "掉色严重把袜子都染红了！",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 掉色-中优"
+  },
+  {
+    "review_id": "G0130",
+    "review_content": "还行吧一般般没什么特别的，就这样",
+    "expected_sentiment": "中性",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 一般评价"
+  },
+  {
+    "review_id": "G0131",
+    "review_content": "说一下，物流很快鞋子也很好客服也很耐心完美的一次购物",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 多维度全正面"
+  },
+  {
+    "review_id": "G0132",
+    "review_content": "说一下，物流暴力运输鞋盒都压扁了",
+    "expected_sentiment": "负面",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "变体: 暴力运输"
+  },
+  {
+    "review_id": "G0133",
+    "review_content": "还没穿先评价一下过几天追评，就这样",
+    "expected_sentiment": "中性",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 待追评"
+  },
+  {
+    "review_id": "G0134",
+    "review_content": "发的根本不是我要的颜色发错货了，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "变体: 发错货"
+  },
+  {
+    "review_id": "G0135",
+    "review_content": "售后处理很快有问题马上就解决了！",
+    "expected_sentiment": "正面",
+    "expected_category": "服务态度",
+    "expected_urgency": 1,
+    "note": "变体: 售后效率好评"
+  },
+  {
+    "review_id": "G0136",
+    "review_content": "说一下，鞋子好看但磨脚穿着不太舒服",
+    "expected_sentiment": "混合",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 好看但磨脚"
+  },
+  {
+    "review_id": "G0137",
+    "review_content": "说一下，颜色很正跟图片一模一样很喜欢",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 色差无/满意"
+  },
+  {
+    "review_id": "G0138",
+    "review_content": "谢谢商家让我体验了一次什么叫花钱买教训！",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 反讽-感谢体"
+  },
+  {
+    "review_id": "G0139",
+    "review_content": "鞋子有刺鼻气味闻着头晕。",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 有害气味-高优/红线"
+  },
+  {
+    "review_id": "G0140",
+    "review_content": "说一下，还行吧一般般没什么特别的",
+    "expected_sentiment": "中性",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 一般评价"
+  },
+  {
+    "review_id": "G0141",
+    "review_content": "顺丰发货隔天就到了快递员态度很好，就这样",
+    "expected_sentiment": "正面",
+    "expected_category": "物流配送",
+    "expected_urgency": 1,
+    "note": "变体: 快递速度好评"
+  },
+  {
+    "review_id": "G0142",
+    "review_content": "好！",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 单字评价"
+  },
+  {
+    "review_id": "G0143",
+    "review_content": "刚收到还没穿过看起来还行希望耐穿吧。",
+    "expected_sentiment": "中性",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 未使用"
+  },
+  {
+    "review_id": "G0144",
+    "review_content": "说一下，颜色好看质量可以就是发货实在太慢了",
+    "expected_sentiment": "混合",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "变体: 产品好物流慢"
+  },
+  {
+    "review_id": "G0145",
+    "review_content": "说一下，不错",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 模糊好评"
+  },
+  {
+    "review_id": "G0146",
+    "review_content": "发的根本不是我要的颜色发错货了，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "变体: 发错货"
+  },
+  {
+    "review_id": "G0147",
+    "review_content": "说一下，谢谢商家让我体验了一次什么叫花钱买教训",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 反讽-感谢体"
+  },
+  {
+    "review_id": "G0148",
+    "review_content": "物流慢客服差鞋子还有质量问题三重打击，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 多维度全负面"
+  },
+  {
+    "review_id": "G0149",
+    "review_content": "承诺48小时发货结果拖了5天。",
+    "expected_sentiment": "负面",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "变体: 承诺未兑现"
+  },
+  {
+    "review_id": "G0150",
+    "review_content": "穿了一个月了来追评质量确实不错很耐穿！",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 追评正面"
+  },
+  {
+    "review_id": "G0151",
+    "review_content": "孩子穿了脚上起了红疹怀疑材料过敏！",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 材质过敏-高优"
+  },
+  {
+    "review_id": "G0152",
+    "review_content": "说一下，好評好評好評",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 繁体重复"
+  },
+  {
+    "review_id": "G0153",
+    "review_content": "给爸爸买的他说很舒服走路不累了，就这样",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 送礼满意"
+  },
+  {
+    "review_id": "G0154",
+    "review_content": "鞋子很轻跑步穿特别合适透气好！",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 功能性好评"
+  },
+  {
+    "review_id": "G0155",
+    "review_content": "还没穿先评价一下过几天追评，就这样",
+    "expected_sentiment": "中性",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 待追评"
+  },
+  {
+    "review_id": "G0156",
+    "review_content": "磨脚后跟每次穿都起泡设计缺陷！",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 磨脚"
+  },
+  {
+    "review_id": "G0157",
+    "review_content": "说一下，说是真皮其实是人造革虚假宣传欺骗消费者",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 虚假宣传-高优"
+  },
+  {
+    "review_id": "G0158",
+    "review_content": "不错，就这样",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 模糊好评"
+  },
+  {
+    "review_id": "G0159",
+    "review_content": "鞋子本身质量没毛病但是刚买就参加活动降了80。",
+    "expected_sentiment": "混合",
+    "expected_category": "价格争议",
+    "expected_urgency": 2,
+    "note": "变体: 产品好降价快"
+  },
+  {
+    "review_id": "G0160",
+    "review_content": "客服态度特别差问什么都是自动回复，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "服务态度",
+    "expected_urgency": 2,
+    "note": "变体: 客服态度差"
+  },
+  {
+    "review_id": "G0161",
+    "review_content": "说一下，昨天刚买今天活动就降价了80块太坑了",
+    "expected_sentiment": "负面",
+    "expected_category": "价格争议",
+    "expected_urgency": 2,
+    "note": "变体: 活动降价"
+  },
+  {
+    "review_id": "G0162",
+    "review_content": "说一下，发货太慢了等了十天才收到",
+    "expected_sentiment": "负面",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "变体: 发货慢"
+  },
+  {
+    "review_id": "G0163",
+    "review_content": "答应了退款却一直不处理拖了两周，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "服务态度",
+    "expected_urgency": 2,
+    "note": "变体: 退款拖延"
+  },
+  {
+    "review_id": "G0164",
+    "review_content": "答应了退款却一直不处理拖了两周。",
+    "expected_sentiment": "负面",
+    "expected_category": "服务态度",
+    "expected_urgency": 2,
+    "note": "变体: 退款拖延"
+  },
+  {
+    "review_id": "G0165",
+    "review_content": "说是真皮其实是人造革虚假宣传欺骗消费者！",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 虚假宣传-高优"
+  },
+  {
+    "review_id": "G0166",
+    "review_content": "性价比很高这个价格买到这个品质很值！",
+    "expected_sentiment": "正面",
+    "expected_category": "价格争议",
+    "expected_urgency": 1,
+    "note": "变体: 性价比正面"
+  },
+  {
+    "review_id": "G0167",
+    "review_content": "整体还行物流快但客服态度需要改善，就这样",
+    "expected_sentiment": "混合",
+    "expected_category": "服务态度",
+    "expected_urgency": 2,
+    "note": "变体: 物流好客服差"
+  },
+  {
+    "review_id": "G0168",
+    "review_content": "鞋底防滑太差了雨天摔了一跤，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 防滑安全-高优"
+  },
+  {
+    "review_id": "G0169",
+    "review_content": "好。",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 单字评价"
+  },
+  {
+    "review_id": "G0170",
+    "review_content": "发的根本不是我要的颜色发错货了！",
+    "expected_sentiment": "负面",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "变体: 发错货"
+  },
+  {
+    "review_id": "G0171",
+    "review_content": "昨天刚买今天活动就降价了80块太坑了！",
+    "expected_sentiment": "负面",
+    "expected_category": "价格争议",
+    "expected_urgency": 2,
+    "note": "变体: 活动降价"
+  },
+  {
+    "review_id": "G0172",
+    "review_content": "说一下，性价比很高这个价格买到这个品质很值",
+    "expected_sentiment": "正面",
+    "expected_category": "价格争议",
+    "expected_urgency": 1,
+    "note": "变体: 性价比正面"
+  },
+  {
+    "review_id": "G0173",
+    "review_content": "质量不错穿着舒服但价格有点贵性价比不高！",
+    "expected_sentiment": "混合",
+    "expected_category": "价格争议",
+    "expected_urgency": 1,
+    "note": "变体: 质好价贵"
+  },
+  {
+    "review_id": "G0174",
+    "review_content": "做工精细没有线头材质手感很好，就这样",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 细节好评"
+  },
+  {
+    "review_id": "G0175",
+    "review_content": "客服态度很好耐心解答了我的问题。",
+    "expected_sentiment": "正面",
+    "expected_category": "服务态度",
+    "expected_urgency": 1,
+    "note": "变体: 客服正面"
+  },
+  {
+    "review_id": "G0176",
+    "review_content": "说一下，穿了一周鞋底就开胶了质量太差",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 开胶-中优"
+  },
+  {
+    "review_id": "G0177",
+    "review_content": "颜色好看质量可以就是发货实在太慢了。",
+    "expected_sentiment": "混合",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "变体: 产品好物流慢"
+  },
+  {
+    "review_id": "G0178",
+    "review_content": "说一下，呵呵就当买个教训吧",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 反讽-呵呵体"
+  },
+  {
+    "review_id": "G0179",
+    "review_content": "鞋子有刺鼻气味闻着头晕，就这样",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 有害气味-高优/红线"
+  },
+  {
+    "review_id": "G0180",
+    "review_content": "线头很多感觉像残次品做工太粗糙！",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 做工粗糙"
+  },
+  {
+    "review_id": "G0181",
+    "review_content": "鞋底太硬了走路脚疼不舒适。",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 舒适度差-中优"
+  },
+  {
+    "review_id": "G0182",
+    "review_content": "说一下，穿了一个月了来追评质量确实不错很耐穿",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 追评正面"
+  },
+  {
+    "review_id": "G0183",
+    "review_content": "孩子穿了脚上起了红疹怀疑材料过敏。",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 材质过敏-高优"
+  },
+  {
+    "review_id": "G0184",
+    "review_content": "答应了退款却一直不处理拖了两周。",
+    "expected_sentiment": "负面",
+    "expected_category": "服务态度",
+    "expected_urgency": 2,
+    "note": "变体: 退款拖延"
+  },
+  {
+    "review_id": "G0185",
+    "review_content": "说一下，鞋子本身质量没毛病但是刚买就参加活动降了80",
+    "expected_sentiment": "混合",
+    "expected_category": "价格争议",
+    "expected_urgency": 2,
+    "note": "变体: 产品好降价快"
+  },
+  {
+    "review_id": "G0186",
+    "review_content": "五星好评穿了三天鞋底掉了客服已读不回太棒了！",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 3,
+    "note": "变体: 反讽-五星差评"
+  },
+  {
+    "review_id": "G0187",
+    "review_content": "好！",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 单字评价"
+  },
+  {
+    "review_id": "G0188",
+    "review_content": "磨脚后跟每次穿都起泡设计缺陷。",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 磨脚"
+  },
+  {
+    "review_id": "G0189",
+    "review_content": "快递把包裹弄丢了又重新补发等了一周！",
+    "expected_sentiment": "负面",
+    "expected_category": "物流配送",
+    "expected_urgency": 2,
+    "note": "变体: 丢件"
+  },
+  {
+    "review_id": "G0190",
+    "review_content": "质量不错穿着舒服但价格有点贵性价比不高，就这样",
+    "expected_sentiment": "混合",
+    "expected_category": "价格争议",
+    "expected_urgency": 1,
+    "note": "变体: 质好价贵"
+  },
+  {
+    "review_id": "G0191",
+    "review_content": "说一下，呵呵就当买个教训吧",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 反讽-呵呵体"
+  },
+  {
+    "review_id": "G0192",
+    "review_content": "鞋子很轻跑步穿特别合适透气好，就这样",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 功能性好评"
+  },
+  {
+    "review_id": "G0193",
+    "review_content": "说一下，给爸爸买的他说很舒服走路不累了",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 送礼满意"
+  },
+  {
+    "review_id": "G0194",
+    "review_content": "说一下，鞋底太硬了走路脚疼不舒适",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 舒适度差-中优"
+  },
+  {
+    "review_id": "G0195",
+    "review_content": "好，就这样",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 单字评价"
+  },
+  {
+    "review_id": "G0196",
+    "review_content": "说一下，价格降太快了买完三天就降价50块",
+    "expected_sentiment": "负面",
+    "expected_category": "价格争议",
+    "expected_urgency": 2,
+    "note": "变体: 短期降价"
+  },
+  {
+    "review_id": "G0197",
+    "review_content": "说一下，磨脚后跟每次穿都起泡设计缺陷",
+    "expected_sentiment": "负面",
+    "expected_category": "产品质量",
+    "expected_urgency": 2,
+    "note": "变体: 磨脚"
+  },
+  {
+    "review_id": "G0198",
+    "review_content": "说一下，。。。。。。",
+    "expected_sentiment": "中性",
+    "expected_category": "无效评论",
+    "expected_urgency": 1,
+    "note": "变体: 纯符号"
+  },
+  {
+    "review_id": "G0199",
+    "review_content": "整体还行物流快但客服态度需要改善。",
+    "expected_sentiment": "混合",
+    "expected_category": "服务态度",
+    "expected_urgency": 2,
+    "note": "变体: 物流好客服差"
+  },
+  {
+    "review_id": "G0200",
+    "review_content": "回购的第二双了给家里老人也买了一双。",
+    "expected_sentiment": "正面",
+    "expected_category": "产品质量",
+    "expected_urgency": 1,
+    "note": "变体: 行为暗示满意（回购）"
+  }
+]

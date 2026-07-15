@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>商品评论洞察引擎 — User Voice AI</title>
+<link rel="stylesheet" href="css/app.css?v=3">
+</head>
+<body>
+
+<!-- ===== Offline Banner ===== -->
+<div id="offline-banner" style="display:none; background:var(--red); color:#fff; text-align:center; padding:8px; font-size:.82rem; font-weight:600;">
+  ⚠️ 后端服务未连接 — 请先运行 <code style="background:rgba(255,255,255,.2);color:#fff">python3 -m uvicorn src.delivery.api:app --port 8000</code>
+</div>
+
+<!-- ===== Top Navigation ===== -->
+<nav class="app-nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-brand" onclick="window.location.hash='/'">
+      <span class="dot"></span>User Voice AI
+    </a>
+    <ul class="nav-links">
+      <li><a class="nav-link active" data-path="/" href="#/">📥 上传</a></li>
+      <li><a class="nav-link" data-path="/report" href="#/report">📊 报告</a></li>
+      <li><a class="nav-link" data-path="/ask" href="#/ask">💬 问答</a></li>
+      <li><a class="nav-link" data-path="/hitl" href="#/hitl">🔍 复核</a></li>
+      <li><a class="nav-link" data-path="/samples" href="#/samples">🧪 样本库</a></li>
+      <li><span id="health-indicator" class="health-dot" title="检查后端连接..."></span></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== Main Content Area ===== -->
+<main class="app-main">
+  <div id="app-content">
+    <div class="loading-spinner">
+      <div class="spinner"></div>
+      <p>正在加载应用...</p>
+    </div>
+  </div>
+</main>
+
+<!-- ===== Chart.js for visualizations ===== -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+<!-- ===== JavaScript Modules (order matters, ?v=3 for cache bust) ===== -->
+<script src="js/api.js?v=3"></script>
+<script src="js/state.js?v=3"></script>
+<script src="js/router.js?v=3"></script>
+<script src="js/views/upload.js?v=3"></script>
+<script src="js/views/report.js?v=3"></script>
+<script src="js/views/ask.js?v=3"></script>
+<script src="js/views/hitl.js?v=3"></script>
+<script src="js/views/samples.js?v=3"></script>
+<script src="js/views/dashboard.js?v=3"></script>
+<script src="js/app.js?v=3"></script>
+
+</body>
+</html>

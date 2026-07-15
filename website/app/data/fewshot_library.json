@@ -1,0 +1,397 @@
+[
+  {
+    "id": "FS001",
+    "category": "反讽识别",
+    "pattern": "表面用词负面/戏谑，实为极度差评",
+    "difficulty": "hard",
+    "review": "真是买了个活爹回来，供着吧不能穿",
+    "extraction": {
+      "sentiment": "负面",
+      "primary_category": "产品质量",
+      "urgency_level": 2,
+      "core_issue_summary": "鞋子质量极差无法穿着",
+      "extracted_keywords": [
+        "质量差",
+        "无法穿"
+      ],
+      "confidence": 0.75
+    },
+    "notes": "\"活爹\"\"供着\"是反讽表达，真实意思是鞋子完全不能穿。LLM 需要绕过字面意思，理解语气反转。"
+  },
+  {
+    "id": "FS002",
+    "category": "无意义内容",
+    "pattern": "纯数字/纯表情/无实质评价",
+    "difficulty": "easy",
+    "review": "111111",
+    "extraction": {
+      "sentiment": "中性",
+      "primary_category": "无效评论",
+      "urgency_level": 1,
+      "core_issue_summary": "无实质内容",
+      "extracted_keywords": [
+        "无意义"
+      ],
+      "confidence": 0.98
+    },
+    "notes": "键盘连击式评论，不包含任何有用信息。应标记为无效评论并给高置信度。"
+  },
+  {
+    "id": "FS003",
+    "category": "明贬暗褒",
+    "pattern": "看似抱怨实则炫耀/满意",
+    "difficulty": "hard",
+    "review": "太浮夸了，不过本仙女就是喜欢这种全场焦点的感觉！",
+    "extraction": {
+      "sentiment": "正面",
+      "primary_category": "产品质量",
+      "urgency_level": 1,
+      "core_issue_summary": "外观设计出众用户满意",
+      "extracted_keywords": [
+        "外观",
+        "设计感",
+        "满意"
+      ],
+      "confidence": 0.8
+    },
+    "notes": "\"太浮夸\"表面是批评，但\"本仙女喜欢\"\"全场焦点\"揭示真实情感为正面。需要结合上下文理解。"
+  },
+  {
+    "id": "FS004",
+    "category": "混合情感",
+    "pattern": "同时包含正面和负面评价",
+    "difficulty": "medium",
+    "review": "质量不错穿着舒服但价格有点贵性价比不高",
+    "extraction": {
+      "sentiment": "混合",
+      "primary_category": "价格争议",
+      "urgency_level": 1,
+      "core_issue_summary": "质量好但价格偏贵",
+      "extracted_keywords": [
+        "质量好",
+        "价格贵",
+        "性价比低"
+      ],
+      "confidence": 0.92
+    },
+    "notes": "评论同时包含正面（质量不错）和负面（价格贵），应标为'混合'而非单选一面。"
+  },
+  {
+    "id": "FS005",
+    "category": "纯正面",
+    "pattern": "标准好评，无负面信号",
+    "difficulty": "easy",
+    "review": "鞋子质量很好穿着很舒服透气性也不错",
+    "extraction": {
+      "sentiment": "正面",
+      "primary_category": "产品质量",
+      "urgency_level": 1,
+      "core_issue_summary": "质量好做工扎实透气",
+      "extracted_keywords": [
+        "质量好",
+        "舒适",
+        "透气"
+      ],
+      "confidence": 0.95
+    },
+    "notes": "标准正面评价，无歧义，应给高置信度。关键词应从具体描述中提取。"
+  },
+  {
+    "id": "FS006",
+    "category": "反讽识别",
+    "pattern": "五星好评但文字全在抱怨",
+    "difficulty": "hard",
+    "review": "五星好评！穿了三天鞋底掉了，客服已读不回，太棒了👍",
+    "extraction": {
+      "sentiment": "负面",
+      "primary_category": "产品质量",
+      "urgency_level": 3,
+      "core_issue_summary": "鞋底脱落客服不理",
+      "extracted_keywords": [
+        "鞋底脱落",
+        "客服不理",
+        "质量差"
+      ],
+      "confidence": 0.7
+    },
+    "notes": "典型反讽：开头'五星好评'是反语，后文揭示严重质量问题+客服失联。需降低置信度。"
+  },
+  {
+    "id": "FS007",
+    "category": "无意义内容",
+    "pattern": "默认评价/系统自动填充",
+    "difficulty": "easy",
+    "review": "默认好评",
+    "extraction": {
+      "sentiment": "中性",
+      "primary_category": "无效评论",
+      "urgency_level": 1,
+      "core_issue_summary": "系统默认评价",
+      "extracted_keywords": [
+        "默认评价"
+      ],
+      "confidence": 0.98
+    },
+    "notes": "平台系统自动填充的默认好评，不代表用户真实评价。"
+  },
+  {
+    "id": "FS008",
+    "category": "安全红线",
+    "pattern": "涉及安全/健康问题的高优评论",
+    "difficulty": "hard",
+    "review": "鞋子有刺鼻气味穿着后头晕恶心怀疑有毒物质超标",
+    "extraction": {
+      "sentiment": "负面",
+      "primary_category": "产品质量",
+      "urgency_level": 3,
+      "core_issue_summary": "有害物质致身体不适",
+      "extracted_keywords": [
+        "刺鼻气味",
+        "头晕",
+        "有毒物质",
+        "安全性"
+      ],
+      "confidence": 0.85
+    },
+    "notes": "涉及健康安全问题的评论应标记为最高紧急度（3），需要立即响应。"
+  },
+  {
+    "id": "FS009",
+    "category": "混合情感",
+    "pattern": "快递好但产品差",
+    "difficulty": "medium",
+    "review": "发货很快物流很棒但鞋子质量真的很一般穿几次就变形了",
+    "extraction": {
+      "sentiment": "混合",
+      "primary_category": "产品质量",
+      "urgency_level": 2,
+      "core_issue_summary": "物流好但质量一般易变形",
+      "extracted_keywords": [
+        "物流快",
+        "质量一般",
+        "变形"
+      ],
+      "confidence": 0.9
+    },
+    "notes": "跨维度混合：物流（正面）+ 产品质量（负面），应标为混合。"
+  },
+  {
+    "id": "FS010",
+    "category": "纯负面",
+    "pattern": "明确的多维度差评",
+    "difficulty": "easy",
+    "review": "千万不要买质量差到离谱穿一次就开胶了找客服还态度恶劣",
+    "extraction": {
+      "sentiment": "负面",
+      "primary_category": "产品质量",
+      "urgency_level": 2,
+      "core_issue_summary": "质量差开胶客服恶劣",
+      "extracted_keywords": [
+        "开胶",
+        "质量差",
+        "客服恶劣"
+      ],
+      "confidence": 0.93
+    },
+    "notes": "明确负面，多个维度的不满。关键词应覆盖产品和客服两个维度。"
+  },
+  {
+    "id": "FS011",
+    "category": "价格争议",
+    "pattern": "对降价不满",
+    "difficulty": "medium",
+    "review": "昨天刚买今天就降了50块这谁遭得住以后再也不买了",
+    "extraction": {
+      "sentiment": "负面",
+      "primary_category": "价格争议",
+      "urgency_level": 2,
+      "core_issue_summary": "购买后立即降价不满",
+      "extracted_keywords": [
+        "降价",
+        "50块",
+        "不满"
+      ],
+      "confidence": 0.9
+    },
+    "notes": "价格保护问题是电商常见投诉，虽不涉及产品本身但影响复购意愿。"
+  },
+  {
+    "id": "FS012",
+    "category": "物流投诉",
+    "pattern": "暴力运输导致损坏",
+    "difficulty": "medium",
+    "review": "物流太暴力了鞋盒压成纸片鞋子表面都有压痕了",
+    "extraction": {
+      "sentiment": "负面",
+      "primary_category": "物流配送",
+      "urgency_level": 2,
+      "core_issue_summary": "暴力运输致鞋盒鞋子损坏",
+      "extracted_keywords": [
+        "暴力运输",
+        "鞋盒压坏",
+        "鞋子有压痕"
+      ],
+      "confidence": 0.92
+    },
+    "notes": "物流问题导致商品损坏，需要同时关注物流服务商和包装保护。"
+  },
+  {
+    "id": "FS013",
+    "category": "客服投诉",
+    "pattern": "退换货被推脱",
+    "difficulty": "medium",
+    "review": "申请退货被拒了三次每次都说照片不清楚分明是故意刁难",
+    "extraction": {
+      "sentiment": "负面",
+      "primary_category": "服务态度",
+      "urgency_level": 2,
+      "core_issue_summary": "退货申请被多次拒绝刁难",
+      "extracted_keywords": [
+        "退货被拒",
+        "故意刁难",
+        "客服"
+      ],
+      "confidence": 0.88
+    },
+    "notes": "客服退换货流程中的推脱行为，属于服务态度问题。"
+  },
+  {
+    "id": "FS014",
+    "category": "无意义内容",
+    "pattern": "纯 Emoji 表情",
+    "difficulty": "easy",
+    "review": "😂😂😂👍👍👍",
+    "extraction": {
+      "sentiment": "中性",
+      "primary_category": "无效评论",
+      "urgency_level": 1,
+      "core_issue_summary": "纯表情无实质内容",
+      "extracted_keywords": [
+        "表情符号"
+      ],
+      "confidence": 0.97
+    },
+    "notes": "纯 Emoji 评论不含可提取的文本信息，应标记为无效。"
+  },
+  {
+    "id": "FS015",
+    "category": "隐含好评",
+    "pattern": "通过比较/行为暗示满意",
+    "difficulty": "medium",
+    "review": "回购的第二双了给家里老人也买了一双",
+    "extraction": {
+      "sentiment": "正面",
+      "primary_category": "产品质量",
+      "urgency_level": 1,
+      "core_issue_summary": "再次购买并推荐家人使用",
+      "extracted_keywords": [
+        "回购",
+        "推荐家人",
+        "满意"
+      ],
+      "confidence": 0.88
+    },
+    "notes": "用户行为（回购+给家人买）比口头好评更有说服力，应识别为正面。"
+  },
+  {
+    "id": "FS016",
+    "category": "尺码问题",
+    "pattern": "尺码偏差导致的负面体验",
+    "difficulty": "medium",
+    "review": "按正常码数买的根本穿不了小了整整一码退货还要自己出运费",
+    "extraction": {
+      "sentiment": "负面",
+      "primary_category": "产品质量",
+      "urgency_level": 2,
+      "core_issue_summary": "尺码严重偏小退货自付运费",
+      "extracted_keywords": [
+        "尺码偏小",
+        "小一码",
+        "退货运费"
+      ],
+      "confidence": 0.9
+    },
+    "notes": "尺码问题是鞋类高频投诉，需要关注具体偏差幅度和退货体验。"
+  },
+  {
+    "id": "FS017",
+    "category": "混合情感",
+    "pattern": "产品好但价格波动不满",
+    "difficulty": "medium",
+    "review": "鞋子本身质量没毛病但是刚买就参加活动直接便宜了80块",
+    "extraction": {
+      "sentiment": "混合",
+      "primary_category": "价格争议",
+      "urgency_level": 2,
+      "core_issue_summary": "产品满意但降价太快",
+      "extracted_keywords": [
+        "质量好",
+        "降价80",
+        "不满"
+      ],
+      "confidence": 0.87
+    },
+    "notes": "典型混合评价：产品 OK 但价格体验差。"
+  },
+  {
+    "id": "FS018",
+    "category": "安全红线",
+    "pattern": "涉及虚假宣传/欺诈",
+    "difficulty": "hard",
+    "review": "说是真皮的其实是人造革的完全虚假宣传欺骗消费者",
+    "extraction": {
+      "sentiment": "负面",
+      "primary_category": "产品质量",
+      "urgency_level": 3,
+      "core_issue_summary": "材质虚假宣传欺诈",
+      "extracted_keywords": [
+        "真皮",
+        "人造革",
+        "虚假宣传",
+        "欺诈"
+      ],
+      "confidence": 0.85
+    },
+    "notes": "涉及虚假宣传/消费欺诈的评论应提升为最高紧急度。"
+  },
+  {
+    "id": "FS019",
+    "category": "中性评价",
+    "pattern": "刚收到未使用，无法判断",
+    "difficulty": "easy",
+    "review": "刚收到还没穿过看起来还行希望耐穿吧",
+    "extraction": {
+      "sentiment": "中性",
+      "primary_category": "产品质量",
+      "urgency_level": 1,
+      "core_issue_summary": "刚收到尚未使用观望中",
+      "extracted_keywords": [
+        "新收到",
+        "未使用",
+        "观望"
+      ],
+      "confidence": 0.82
+    },
+    "notes": "刚收到商品尚未形成明确判断，应标为中性。置信度应适度降低。"
+  },
+  {
+    "id": "FS020",
+    "category": "反讽识别",
+    "pattern": "以感谢形式表达极端不满",
+    "difficulty": "hard",
+    "review": "谢谢商家让我体验了一次什么叫花钱买教训祝生意兴隆",
+    "extraction": {
+      "sentiment": "负面",
+      "primary_category": "产品质量",
+      "urgency_level": 2,
+      "core_issue_summary": "质量差花钱买教训不满",
+      "extracted_keywords": [
+        "花钱买教训",
+        "不满",
+        "质量差"
+      ],
+      "confidence": 0.72
+    },
+    "notes": "表面礼貌的感谢实则表达极度不满。\"祝生意兴隆\"在语境中是讽刺。"
+  }
+]
